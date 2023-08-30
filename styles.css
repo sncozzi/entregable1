@@ -1,0 +1,163 @@
+.Buy {
+    color: white;
+    background-color: #FF3E1E;
+    border-color: #FF3E1E;
+    border-radius: 10px;
+    border-style: none;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#explore {
+    color: white;
+    background-color: #FF3E1E;
+}
+
+#documentation{
+    color: #FF3E1E;
+    background-color: #F7D4C9;
+    
+}
+
+#explore:hover{
+  box-shadow: 0 0.5rem 0.1rem 0 #F7D4C9;
+}
+
+#documentation:hover{
+  box-shadow: 0 0.5rem 0.5rem 0 #FF3E1E;
+}
+
+#intro::after {
+        content: " ";
+        height: 25px;
+        width: 100%;
+        background: transparent url("/img/curveGray.svg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        position: absolute;
+        bottom: 0;
+        margin-bottom: -30px;
+      }
+
+      #intro {
+        background-position: center center;
+        background-size: cover;
+        display: flex;
+        position: relative;
+      }
+
+      #new {
+        color: white;
+        background-color: #FF3E1E;
+        border-style: none;
+        border-radius: 10px;
+      }
+
+      .grey {
+        background-color: #F5F5F5;
+        margin-top: 30px;
+      }
+
+      #intro2::after {
+        content: " ";
+        height: 25px;
+        width: 100%;
+        background: transparent url("/img/curveWhite.svg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        position: absolute;
+        bottom: 0;
+        
+      }
+
+      #intro2 {
+        background-position: center center;
+        background-size: cover;
+        position: relative;
+      }
+
+      .pricing .card {
+        border: none;
+        border-radius: 1rem;
+        transition: all 0.2s;
+        box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+      }
+
+      .pricing ul li {
+        margin-bottom: 5px;
+      }
+
+      .pricing .card-price {
+        font-size: 20px;
+        margin: 0;
+      }
+      
+      @media (min-width: 992px) {
+        .pricing .card:hover {
+          margin-top: -.25rem;
+          margin-bottom: .25rem;
+          box-shadow: 0 0.5rem 1rem 0 #1298fe;
+        }
+      }
+
+      #intro3::after {
+        content: " ";
+        height: 25px;
+        width: 100%;
+        background: transparent url("/img/curveGray.svg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        position: absolute;
+        bottom: 0;
+        margin-bottom: -50px;
+      }
+
+      #intro3 {
+        background-position: center center;
+        background-size: cover;
+        position: relative;
+      }
+
+      .blog {
+        background: linear-gradient(0deg, black 60%, #F5F5F5 40% );
+      }
+
+      .black {
+        background-color: black;
+        color: white;
+      }
+
+      .standard{
+        background-color: rgb(184, 241, 241);
+      }
+      
+
+      .premium{
+        background-color: rgb(150, 111, 150);
+      }
+
+      .lists {
+        list-style: none;
+      
+      }
+  
+      .lists a {
+        text-decoration: none;
+        color: #F5F5F5;
+        
+      }
+
+      .search {
+        border-radius: 10px;
+        border-color: #FF3E1E;
+        background-color: #F7D4C9;
+        color: #FF3E1E;
+      }
+
+    body{
+      font-family: "Roboto";
+    }
